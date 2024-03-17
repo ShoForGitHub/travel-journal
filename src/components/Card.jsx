@@ -2,7 +2,7 @@
 export default function Card(props) {
   return (
     <div className="spot-card">
-      <img src={props.imageUrl} alt="spotPhoto" className="spot-photo" />
+      <img src={props.imageUrl} alt={props.alt} className="spot-photo" />
       <div className="description">
 
         <div className="location-info">
